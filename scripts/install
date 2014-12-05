@@ -121,4 +121,4 @@ mysql -u $db_user -p$db_pwd $db_user -e "INSERT INTO oc_group_user VALUES ('admi
 sudo yunohost app ssowatconf
 
 # Remove temporary entry in /etc/hosts
-sudo sed -i '/yunoowncloud/d' /etc/hosts
+#sudo sed -i '/yunoowncloud/d' /etc/hosts
